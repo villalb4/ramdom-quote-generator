@@ -1,12 +1,29 @@
+import { useEffect } from 'react'
 import './Quote.css'
+import { useSelector, useDispatch } from 'react-redux'
+import { getQuotes } from '../../redux/thunk/quote'
+
 
 function Qoute() {
+
+  const dispatch = useDispatch()
+
+  useEffect(() => {
+    dispatch(getQuotes())
+  }, [])
+
+  const action = useSelector(e => e.quoteSlice.quotes)
+
   return (
     <div className='qoute_component'>
       <div className='qoute_divContent'>
-        <div className='quote_rectangle'></div>
         <div className='quote_divQuote'>
-          <p className='quote_text'>“The first rule of any technology used in a business is that automation applied to an efficient operation will magnify the efficiency. The second is that automation applied to an inefficient operation will magnify the inefficiency.”</p>
+          <p className='quote_text'>
+            {
+              action.quote === undefined
+                ? null 
+                : `“${action.quote}”`
+            }</p>
         </div>
       </div>
     </div>

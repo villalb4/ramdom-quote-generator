@@ -2,13 +2,14 @@ import React from 'react'
 import './Author.css'
 import { useSelector } from 'react-redux'
 import arrow from '../../assets/arrow.svg'
+import { Link } from 'react-router-dom'
 
 function Author() {
 
   const action = useSelector(e => e.quoteSlice.quotes)
 
   return (
-    <div className='author_component'>
+    <Link to="/author" className='author_component'>
       <div className='author_divContent'>
         <div className='author_divName'>
           <span className='author_name'>{action.author}</span>
@@ -18,7 +19,7 @@ function Author() {
           <img className='author_arrow' src={arrow} alt="" />
         </div>
       </div>
-    </div>
+    </Link>
   )
 }
 

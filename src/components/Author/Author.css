@@ -1,0 +1,47 @@
+.author_component {
+  margin-top: 109px;
+}
+
+.author_divContent {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: transparent;
+  max-width: 672px;
+  margin: 0 auto;
+  padding: 50px 33px 49px 29px;
+  cursor: pointer;
+  transition: all ease 0.2s;
+}
+.author_divContent:hover {
+  background-color: #333333;
+}
+.author_divContent:hover > .author_divName > .author_name {
+  color: #F2F2F2;
+}
+
+.author_divName {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.author_name {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  color: #4F4F4F;
+  transition:all ease 0.2s;
+}
+
+.author_historical {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  color: #828282;
+}
+
+.author_divImg, .author_arrow {
+  height: 38px;
+  width: 38px;
+}

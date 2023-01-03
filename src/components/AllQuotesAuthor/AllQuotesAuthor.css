@@ -1,0 +1,17 @@
+.allQuotesAuthor_component {
+  display: flex;
+  flex-direction: column;
+  gap: 140px;
+  margin: 140px auto;
+  max-width: 614px;
+
+}
+
+.allQuotesAuthor_divName {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 42px;
+  color: #333333;
+  padding-left: 107px;
+}
+

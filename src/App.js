@@ -1,12 +1,10 @@
 import './App.css';
-import Header from './components/Header/Header';
-import Quote from './components/Quote/Qoute'
+import Home from './views/Home';
 
 function App() {
   return (
     <div className="App">
-      <Header />
-      <Quote />
+      <Home />
     </div>
   );
 }

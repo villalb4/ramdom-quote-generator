@@ -1,0 +1,28 @@
+.qoute_component {
+  max-width: 1248px;
+  margin: 0 auto;
+}
+
+.qoute_divContent {
+  margin-left: 213px;
+  position: relative;
+}
+
+.quote_rectangle {
+  width: 8px;
+  height: 100%;
+  position: absolute;
+  background-color: #F7DF94;
+}
+
+.quote_divQuote {
+  max-width: 614px;
+  margin-left: 107px;
+}
+
+.quote_text {
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 120%;
+  color: #000000;
+}

@@ -1,0 +1,34 @@
+header {
+  max-width: 1248px;
+  margin: 0 auto;
+  padding: 21px 0;
+  margin-bottom: 217px;
+}
+
+.header_divContent {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.header_randomButton {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  background-color: transparent;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 120%;
+  color: #4F4F4F;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+  outline: none;
+  transition: all ease 0.4s;
+}
+.header_randomButton:hover {
+  background-color: #f3f3f3;
+}
+
+.header_autorenewIcon {
+  width: 24px;
+}

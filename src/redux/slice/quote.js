@@ -2,7 +2,8 @@ import { createSlice } from "@reduxjs/toolkit";
 
 const initialstate = {
   quotes : [],
-  allQuotes: []
+  allQuotes: [],
+  authorQuotes: [],
 }
 
 const quoteSlice = createSlice({
@@ -13,12 +14,14 @@ const quoteSlice = createSlice({
       state.quotes = action.payload
     },
     setAllQuotes : function(state, action) {
-      const allApi = action.payload
-      const quotesPerAurhor = allApi.quotes.filter(e => e.author === state.quotes.author)
-      state.allQuotes = quotesPerAurhor
-    }
+      state.allQuotes = action.payload
+    },
+    setAuthorQuotes: function(state, action) {
+      state.authorQuotes = action.payload
+      // console.log(state.authorQuotes)
+    },
   }
 })
 
-export const { setQuotes, setAllQuotes } = quoteSlice.actions
+export const { setQuotes, setAllQuotes,setAuthorQuotes } = quoteSlice.actions
 export default quoteSlice.reducer

@@ -7,11 +7,11 @@ import { getQuotes } from '../../redux/thunk/quote'
 function Qoute() {
 
   const dispatch = useDispatch()
-
+  
   useEffect(() => {
     dispatch(getQuotes())
-  }, [])
-
+  }, [dispatch])
+  
   const action = useSelector(e => e.quoteSlice.quotes)
 
   return (

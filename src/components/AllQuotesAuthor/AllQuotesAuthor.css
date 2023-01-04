@@ -2,9 +2,8 @@
   display: flex;
   flex-direction: column;
   gap: 140px;
-  margin: 140px auto;
+  margin: 140px auto 330px auto;
   max-width: 614px;
-
 }
 
 .allQuotesAuthor_divName {
@@ -14,4 +13,3 @@
   color: #333333;
   padding-left: 107px;
 }
-

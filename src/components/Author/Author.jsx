@@ -9,7 +9,7 @@ function Author() {
   const action = useSelector(e => e.quoteSlice.quotes)
 
   return (
-    <Link to="/author" className='author_component'>
+    <Link to={`/author/${action.author}`} className='author_component'>
       <div className='author_divContent'>
         <div className='author_divName'>
           <span className='author_name'>{action.author}</span>

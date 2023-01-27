@@ -8,7 +8,7 @@
 
 <div align="center">
   <h3>
-    <a href="https://{weather-app-villalb4.vercel.app/}">
+    <a href="https://{ramdom-quote-generator.vercel.app/}">
       Demo
     </a>
     <span> | </span>
@@ -16,7 +16,7 @@
       Solution
     </a>
     <span> | </span>
-    <a href="https://devchallenges.io/challenges/mM1UIenRhK808W8qmLWv">
+    <a href="https://devchallenges.io/challenges/8Y3J4ucAMQpSnYTwwWW8">
       Challenge
     </a>
   </h3>

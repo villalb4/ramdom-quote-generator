@@ -36,6 +36,8 @@
 
 ## Screenshot
 
+![screenshot](./screenshot.png)
+
 ### Built With
 
 <!-- This section should list any major frameworks that you built your project using. Here are a few examples.-->
@@ -44,6 +46,7 @@
 - [Redux-toolkit](https://redux-toolkit.js.org/)
 
 ## Features
+
 
 ## How To Use
 
